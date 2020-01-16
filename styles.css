@@ -1,0 +1,112 @@
+header {
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+#header-div {
+    display: flex;
+
+    padding: 10px 30px;
+}
+
+#sign-in-text {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    font-size: 1.125em;
+    font-weight: normal;
+}
+
+.si-btn {
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+}
+
+.ius-white-lock-img {
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ius-hosted-ui-logo-container {
+    height: 35px;
+    /* background-color: blue; */
+}
+
+#ius-hosted-ui-header-brand {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new@2x-a8356d8c.png);
+    background-size: 562px 83px;
+    width: 118px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+}
+
+.div-header-opts {
+    /* margin: 0 auto;
+    display: block;
+    text-align: center; */
+}
+
+.div-header-form-opts {
+    /* text-align: center; */
+}
+
+.iu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.iu-li {
+    float: left;
+
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+.iu-li-icon {
+    width: 23px;
+}
+
+.iu-li-mint {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
+}
+
+.iu-li-quickbooks {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg) no-repeat;
+}
+
+.iu-li-turbotax {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg) no-repeat;
+}
+
+.form-inputs-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ius-lock-left {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
+    width: 33px;
+}
