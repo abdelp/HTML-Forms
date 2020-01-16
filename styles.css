@@ -1,0 +1,236 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eceef1;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+}
+
+#header-div {
+  display: flex;
+  padding: 10px 30px;
+}
+
+#sign-in-text {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.ius-link {
+  color: #0077c5;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+.sign-in-form-learn {
+  font-size: 12px;
+}
+
+.form-container {
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.form-description {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.form-label {
+  margin: 5px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  padding-bottom: 30px;
+}
+
+.form-control {
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 6px;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+}
+
+.ca-btn {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  width: 100%;
+  height: 44px;
+}
+
+.si-btn {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+}
+
+.ius-white-lock-img {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.internal-footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+.capcha-footer {
+  background-color: #eceef1;
+  font-size: 10px;
+  margin: -30px;
+  margin-top: 20px;
+  width: auto;
+  padding: 16px;
+  color: #8d9096;
+  text-align: center;
+}
+
+#ius-hosted-ui-logo-container {
+  height: 35px;
+  margin: 10px;
+}
+
+#ius-hosted-ui-header-brand {
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new@2x-a8356d8c.png);
+  background-size: 562px 83px;
+  width: 118px;
+  height: 35px;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.div-header-opts {
+  margin: 15px;
+}
+
+.div-header-form-opts {
+  margin: 0 auto;
+}
+
+.iu-ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.iu-li {
+  float: left;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+  cursor: pointer;
+  animation: zoom 1.4s ease-in-out forwards;
+}
+
+.iu-li-icon {
+  width: 23px;
+}
+
+.iu-li-mint {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
+}
+
+.iu-li-quickbooks {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg) no-repeat;
+}
+
+.iu-li-turbotax {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg) no-repeat;
+}
+
+.form-inputs-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-suggestion {
+  font-size: 10px;
+  color: #444;
+  padding: 5px 0;
+}
+
+.ius-lock-left {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
+  width: 33px;
+}
+
+.footer-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.consentWidget {
+  font-family: inherit;
+  font-size: 14px;
+  background-color: #6b6c72;
+  border-radius: 3px;
+  z-index: 100;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  display: block;
+}
+
+.consentWidget__text {
+  padding: 10px 12px;
+  vertical-align: middle;
+  color: #fff;
+  float: left;
+}
