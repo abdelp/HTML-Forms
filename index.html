@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <title>HTML Forms</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     </head>
     <body>
         <header>
@@ -20,11 +22,11 @@
         </header>
 
         <main>
-            <div class="div-header-opts">
+            <div class="div-header-opts text-center" >
                 <div id="ius-hosted-ui-logo-container" class="ius-hosted-ui-logo-container">
                     <a id="ius-hosted-ui-header-brand" class="ius-hosted-ui-logo" href="#" aria-label="intuit"></a>
                 </div>
-                <div class="div-header-form-opts">
+                <div class="div-header-form-opts" >
                     <ul class="iu-ul">
                         <li class="iu-li iu-li-mint iu-li-icon"></li>
                         <li class="iu-li">mint</li>
@@ -37,24 +39,32 @@
             </div>
 
             <form class="sign-in-form">
-                <h2>Create an Intuit account</h2>
+                <h2 >Create an Intuit account</h2>
 
-                <h3>One account for everything Intuit, including Mint.</h3>
-                <div><a>Learn more</a></div>
+                <div class="form-description">One account for everything Intuit, including Mint.
+                <a class="sign-in-form-learn" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></div>
                 <div class="form-inputs-div">
-                    <label for="email-input">Email address</label>
-                    <input id="email-input" type="email" required/>
-                    <label for="phone-input">Phone (recommended)</label>
-                    <input id="phone-input" type="tel"/>
-                    <d>Standard call, messaging or data rates may apply.</d>
-                    <label for="password-input">Password</label>
-
-                    <input id="password-input" type="password" required />
+                    <div class="input-container">
+                        <label for="email-input"class="form-label">Email address</label>
+                        <input id="email-input" type="email" class="form-control"required/>
+                    </div>
+                    <div class="input-container">
+                        <label for="phone-input"class="form-label">Phone (recommended)</label>
+                        <input id="phone-input" type="tel" class="form-control"/> 
+                        <div>Standard call, messaging or data rates may apply.</div>
+                    </div>
+                   
+                    <div class="input-container">
+                        <label for="password-input"class="form-label">Password</label>
+                        <input id="password-input" type="password" class="form-control"required />
+                    </div>
                     <span id="ius-status-password" class="ius-lock-left" aria-live="polite"></span>
-                    <button class="btn si-btn" type="submit">
-                        <span class="ius-white-lock-img"></span>
-                        Create Account
-                    </button>
+                    <div class="button-container">
+                        <button class="btn ca-btn" type="submit">
+                            <span class="ius-white-lock-img"></span>
+                            Create Account
+                        </button>
+                    </div>
                 </div>
             </form>
             <footer>

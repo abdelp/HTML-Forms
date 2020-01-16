@@ -1,3 +1,6 @@
+*{
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 header {
     background-color: red;
     display: flex;
@@ -15,18 +18,61 @@ header {
     text-align: right;
     padding-right: 5px;
 }
-
+.sign-in-form-learn{
+    color: #0077c5;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 12px;    
+    text-decoration: none;
+} 
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+.form-description{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-label{
+    margin: 5px;
+}
+.input-container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:30px;
+}
+.button-container{
+    
+    padding-bottom: 30px;
+}
+.form-control{
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+  outline:none;
+  padding: 6px;
+}
 .btn {
     color: white;
     cursor: pointer;
     font-size: 1.125em;
     font-weight: normal;
 }
+.ca-btn{
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    width: 100%;
+    height: 44px;
+}
 
 .si-btn {
     background: #0077c5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
+    
 }
 
 .ius-white-lock-img {
@@ -43,6 +89,7 @@ header {
 
 #ius-hosted-ui-logo-container {
     height: 35px;
+    margin:10px;
     /* background-color: blue; */
 }
 
@@ -54,15 +101,24 @@ header {
     display: block;
     margin: 0 auto;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+    
+}
 
 .div-header-opts {
-    /* margin: 0 auto;
-    display: block;
-    text-align: center; */
+    margin:15px;
 }
 
 .div-header-form-opts {
     /* text-align: center; */
+    margin: 0 auto;
+    
 }
 
 .iu-ul {
