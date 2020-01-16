@@ -1,8 +1,13 @@
 *{
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
 }
+
+body {
+    background: #eceef1;
+}
+
 header {
-    background-color: red;
     display: flex;
     justify-content: flex-end;
     height: 60px;
@@ -18,14 +23,26 @@ header {
     text-align: right;
     padding-right: 5px;
 }
-.sign-in-form-learn{
+
+.ius-link {
     color: #0077c5;
     margin: 0;
     padding: 0;
     outline: none;
-    font-size: 12px;    
     text-decoration: none;
+}
+
+.sign-in-form-learn{
+    font-size: 12px;    
 } 
+
+.form-container {
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    padding: 30px;
+}
+
 h2{
     text-align: center;
     font-size: 24px;
@@ -87,6 +104,22 @@ h2{
     background-repeat: no-repeat;
 }
 
+.internal-footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.capcha-footer {
+    background-color: #eceef1;
+    font-size: 10px;
+    margin: -30px;
+    margin-top: 20px;
+    width: auto;
+    padding: 16px;
+    color: #8d9096;
+    text-align: center;
+}
+
 #ius-hosted-ui-logo-container {
     height: 35px;
     margin:10px;
@@ -139,6 +172,7 @@ main{
     margin-right: 4px;
     position: relative;
     cursor: pointer;
+    animation: zoom 1.4s ease-in-out forwards;
 }
 
 .iu-li-icon {
@@ -165,4 +199,12 @@ main{
 .ius-lock-left {
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
     width: 33px;
+}
+
+.footer-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 12px;
 }

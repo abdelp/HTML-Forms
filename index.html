@@ -12,7 +12,7 @@
             <div id="header-div">
                 <div id="sign-in-text">
                     <div>Already have an Intuit account?</div>
-                    <a>I forgot my User ID or Password</a>
+                    <a href="#" class="ius-link">I forgot my User ID or Password</a>
                 </div>
                 <button class="btn si-btn">
                     <span class="ius-white-lock-img"></span>
@@ -22,6 +22,7 @@
         </header>
 
         <main>
+            
             <div class="div-header-opts text-center" >
                 <div id="ius-hosted-ui-logo-container" class="ius-hosted-ui-logo-container">
                     <a id="ius-hosted-ui-header-brand" class="ius-hosted-ui-logo" href="#" aria-label="intuit"></a>
@@ -31,52 +32,62 @@
                         <li class="iu-li iu-li-mint iu-li-icon"></li>
                         <li class="iu-li">mint</li>
                         <li class="iu-li iu-li-quickbooks iu-li-icon"></li>
-                        <li class="iu-li">quickbooks</li class="iu-li">
+                        <li class="iu-li">quickbooks</li>
                         <li class="iu-li iu-li-turbotax iu-li-icon"></li>
-                        <li class="iu-li">turbotax</li class="iu-li">
+                        <li class="iu-li">turbotax</li>
                     </ul>
                 </div>
             </div>
 
-            <form class="sign-in-form">
-                <h2 >Create an Intuit account</h2>
+            <div class="form-container">
+                <form class="sign-in-form">
+                    <h2 >Create an Intuit account</h2>
 
-                <div class="form-description">One account for everything Intuit, including Mint.
-                <a class="sign-in-form-learn" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></div>
-                <div class="form-inputs-div">
-                    <div class="input-container">
-                        <label for="email-input"class="form-label">Email address</label>
-                        <input id="email-input" type="email" class="form-control"required/>
+                    <div class="form-description">One account for everything Intuit, including Mint.
+                    <a class="sign-in-form-learn" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
                     </div>
-                    <div class="input-container">
-                        <label for="phone-input"class="form-label">Phone (recommended)</label>
-                        <input id="phone-input" type="tel" class="form-control"/> 
-                        <div>Standard call, messaging or data rates may apply.</div>
+
+                    <div class="form-inputs-div">
+                        <div class="input-container">
+                            <label for="email-input" class="form-label">Email address</label>
+                            <input id="email-input" type="email" class="form-control"  required/>
+                        </div>
+                        <div class="input-container">
+                            <label for="phone-input" class="form-label">Phone (recommended)</label>
+                            <input id="phone-input" type="tel" class="form-control"/> 
+                            <div>Standard call, messaging or data rates may apply.</div>
+                        </div>
+                    
+                        <div class="input-container">
+                            <label for="password-input" class="form-label">Password</label>
+                            <input id="password-input" type="password" class="form-control"  required />
+                        </div>
+                        <span id="ius-status-password" class="ius-lock-left" aria-live="polite"></span>
+                        <div class="button-container">
+                            <button class="btn ca-btn" type="submit">
+                                <span class="ius-white-lock-img"></span>
+                                Create Account
+                            </button>
+                        </div>
                     </div>
-                   
-                    <div class="input-container">
-                        <label for="password-input"class="form-label">Password</label>
-                        <input id="password-input" type="password" class="form-control"required />
-                    </div>
-                    <span id="ius-status-password" class="ius-lock-left" aria-live="polite"></span>
-                    <div class="button-container">
-                        <button class="btn ca-btn" type="submit">
-                            <span class="ius-white-lock-img"></span>
-                            Create Account
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <footer>
-                <div>By clicking Create account, you agree to our <a>Terms</a> and have read and acknowledge our <a>Privacy Statement.</a></div>
-            </footer>
-            <section class="capcha-footer">
-                <div>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</div>
-            </section>
+                </form>
+                <footer class="internal-footer">
+                    <div>By clicking Create account, you agree to our <a>Terms</a> and have read and acknowledge our <a>Privacy Statement.</a></div>
+                </footer>
+                <section class="capcha-footer">
+                    <div>Invisible reCAPTCHA by Google <a href="#" class="ius-link">Privacy Policy</a> and <a href="#" class="ius-link">Terms</a> of Use.</div>
+                </section>
+            </div>
         </main>
 
-        <footer>
-            <div>Legal Privacy Security</div>
+        <footer class="footer-page">
+            <nav class="foorter-nav">
+                <ul class="iu-ul">
+                    <li class="iu-li">Legal</li>
+                    <li class="iu-li">Privacy</li>
+                    <li class="iu-li">Security</li>
+                </ul>
+            </nav>
             <div>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</div>
             <div>Terms and conditions, features, support, pricing, and service options subject to change without notice.</div>
         </footer>
