@@ -196,6 +196,12 @@ main{
     flex-direction: column;
 }
 
+.phone-suggestion {
+    font-size: 10px;
+    color: #444;
+    padding: 5px 0;
+}
+
 .ius-lock-left {
     background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
     width: 33px;
